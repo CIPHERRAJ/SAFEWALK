@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">SafeWalk Coimbatore PRO</string>
+    <string name="title_home">SafeWalk Coimbatore</string>
+    <string name="btn_junctions">Junctions Directory</string>
+    <string name="btn_safety_tips">Safety Tips</string>
+    <string name="btn_report_issue">Report Issue</string>
+    <string name="btn_play_voice">Play Voice</string>
+    <string name="btn_submit">Submit Report</string>
+    <string name="btn_take_photo">Take Photo</string>
+    <string name="hint_enter_issue">Enter safety issue here...</string>
+    <string name="msg_report_submitted">Report submitted successfully!</string>
+    <string name="msg_empty_report">Please enter an issue before submitting.</string>
+    
+    <!-- Junction Detail Labels -->
+    <string name="label_traffic">TRAFFIC DENSITY: </string>
+    <string name="label_signal">SIGNAL STATUS: </string>
+    <string name="label_risk">RISK LEVEL: </string>
+    <string name="label_context_tip">CONTEXTUAL TIP: </string>
+    
+    <!-- Safety Tips (Static) -->
+    <string name="safety_tips_text">
+1. Always use marked pedestrian crossings (Zebra crossings).\n
+2. Look right, then left, then right again before crossing.\n
+3. Stay alert and avoid using mobile phones while walking.\n
+4. Walk on the sidewalk or footpath whenever available.\n
+5. Wear bright or reflective clothing at night for better visibility.\n
+6. Follow pedestrian signals at traffic intersections.\n
+7. In Coimbatore, be extra cautious near heavy traffic zones like Gandhipuram.\n
+8. Keep an eye on turning vehicles even when you have the right of way.\n
+9. Walk facing the traffic if there is no sidewalk.\n
+10. Teach children and the elderly safe crossing habits.
+    </string>
+</resources>

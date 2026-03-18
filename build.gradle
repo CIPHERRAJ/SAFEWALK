@@ -1,0 +1,9 @@
+// Top-level build file
+plugins {
+    // Upgraded to 8.4.0 for better compatibility with newer Gradle versions
+    id 'com.android.application' version '8.4.0' apply false
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

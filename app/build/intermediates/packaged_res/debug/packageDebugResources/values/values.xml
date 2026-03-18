@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#FF4081</color>
+    <color name="black">#FF000000</color>
+    <color name="primary">#1976D2</color>
+    <color name="primary_variant">#1565C0</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">SafeWalk Coimbatore PRO</string>
+    <string name="btn_junctions">Junctions Directory</string>
+    <string name="btn_play_voice">Play Voice</string>
+    <string name="btn_report_issue">Report Issue</string>
+    <string name="btn_safety_tips">Safety Tips</string>
+    <string name="btn_submit">Submit Report</string>
+    <string name="btn_take_photo">Take Photo</string>
+    <string name="hint_enter_issue">Enter safety issue here...</string>
+    <string name="label_context_tip">CONTEXTUAL TIP: </string>
+    <string name="label_risk">RISK LEVEL: </string>
+    <string name="label_signal">SIGNAL STATUS: </string>
+    <string name="label_traffic">TRAFFIC DENSITY: </string>
+    <string name="msg_empty_report">Please enter an issue before submitting.</string>
+    <string name="msg_report_submitted">Report submitted successfully!</string>
+    <string name="safety_tips_text">
+1. Always use marked pedestrian crossings (Zebra crossings).\n
+2. Look right, then left, then right again before crossing.\n
+3. Stay alert and avoid using mobile phones while walking.\n
+4. Walk on the sidewalk or footpath whenever available.\n
+5. Wear bright or reflective clothing at night for better visibility.\n
+6. Follow pedestrian signals at traffic intersections.\n
+7. In Coimbatore, be extra cautious near heavy traffic zones like Gandhipuram.\n
+8. Keep an eye on turning vehicles even when you have the right of way.\n
+9. Walk facing the traffic if there is no sidewalk.\n
+10. Teach children and the elderly safe crossing habits.
+    </string>
+    <string name="title_home">SafeWalk Coimbatore</string>
+    <style name="Theme.SafeWalkCoimbatorePro" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_variant</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>
