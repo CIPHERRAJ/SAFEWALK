@@ -1,50 +1,78 @@
 [
     {
-        "merged": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-debug-28:\\layout_activity_junctions.xml.flat",
-        "source": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-main-30:\\layout\\activity_junctions.xml"
+        "merged": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-debug-35:\\layout_recyclerview_item.xml.flat",
+        "source": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-main-37:\\layout\\recyclerview_item.xml"
     },
     {
-        "merged": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-debug-28:\\layout_activity_report.xml.flat",
-        "source": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-main-30:\\layout\\activity_report.xml"
+        "merged": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-debug-35:\\anim_fade_in_up.xml.flat",
+        "source": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-main-37:\\anim\\fade_in_up.xml"
     },
     {
-        "merged": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-debug-28:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-main-30:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-debug-35:\\drawable_bg_rounded_top.xml.flat",
+        "source": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-main-37:\\drawable\\bg_rounded_top.xml"
     },
     {
-        "merged": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-debug-28:\\mipmap_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-main-30:\\mipmap\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-debug-35:\\layout_activity_report.xml.flat",
+        "source": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-main-37:\\layout\\activity_report.xml"
     },
     {
-        "merged": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-debug-28:\\mipmap_ic_launcher.xml.flat",
-        "source": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-main-30:\\mipmap\\ic_launcher.xml"
+        "merged": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-debug-35:\\mipmap_ic_launcher.xml.flat",
+        "source": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-main-37:\\mipmap\\ic_launcher.xml"
     },
     {
-        "merged": "com.safewalk.coimbatore.pro.app-debug-28:/xml_file_paths.xml.flat",
-        "source": "com.safewalk.coimbatore.pro.app-main-30:/xml/file_paths.xml"
+        "merged": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-debug-35:\\layout_activity_junction_detail.xml.flat",
+        "source": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-main-37:\\layout\\activity_junction_detail.xml"
     },
     {
-        "merged": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-debug-28:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-main-30:\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-debug-35:\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-main-37:\\xml\\file_paths.xml"
     },
     {
-        "merged": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-debug-28:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-main-30:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-debug-35:\\anim_layout_fall_down.xml.flat",
+        "source": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-main-37:\\anim\\layout_fall_down.xml"
     },
     {
-        "merged": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-debug-28:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-main-30:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.safewalk.coimbatore.pro.app-debug-35:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.safewalk.coimbatore.pro.app-main-37:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-debug-28:\\layout_activity_junction_detail.xml.flat",
-        "source": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-main-30:\\layout\\activity_junction_detail.xml"
+        "merged": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-debug-35:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-main-37:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-debug-28:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-main-30:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-debug-35:\\mipmap_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-main-37:\\mipmap\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-debug-28:\\layout_activity_tips.xml.flat",
-        "source": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-main-30:\\layout\\activity_tips.xml"
+        "merged": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-debug-35:\\drawable_bg_icon_circle.xml.flat",
+        "source": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-main-37:\\drawable\\bg_icon_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-debug-35:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-main-37:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-debug-35:\\layout_activity_tips.xml.flat",
+        "source": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-main-37:\\layout\\activity_tips.xml"
+    },
+    {
+        "merged": "com.safewalk.coimbatore.pro.app-debug-35:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.safewalk.coimbatore.pro.app-main-37:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-debug-35:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-main-37:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-debug-35:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-main-37:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-debug-35:\\layout_activity_junctions.xml.flat",
+        "source": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-main-37:\\layout\\activity_junctions.xml"
+    },
+    {
+        "merged": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-debug-35:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-main-37:\\mipmap-anydpi-v26\\ic_launcher.xml"
     }
 ]

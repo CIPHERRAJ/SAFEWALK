@@ -1,0 +1,6 @@
+com.safewalk.coimbatore.pro.test.app-annotation-experimental-1.3.0-0 C:\Users\vraj4\.gradle\caches\9.0.0\transforms\9547f07ab275158fe8a0af580cde1dd1\transformed\annotation-experimental-1.3.0\res
+com.safewalk.coimbatore.pro.test.app-core-1.5.0-1 C:\Users\vraj4\.gradle\caches\9.0.0\transforms\e47a271ead5b5298f82950adf343bd33\transformed\core-1.5.0\res
+com.safewalk.coimbatore.pro.test.app-androidTest-2 D:\TK222222222\app\build\generated\res\resValues\androidTest\debug
+com.safewalk.coimbatore.pro.test.app-mergeDebugAndroidTestResources-3 D:\TK222222222\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.safewalk.coimbatore.pro.test.app-mergeDebugAndroidTestResources-4 D:\TK222222222\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.safewalk.coimbatore.pro.test.app-debugAndroidTest-5 D:\TK222222222\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

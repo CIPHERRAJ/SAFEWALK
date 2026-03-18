@@ -26,13 +26,19 @@ public class TipsActivity extends AppCompatActivity implements TextToSpeech.OnIn
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tips);
 
-        // Enable back button in ActionBar
+        // Setup toolbar
+        androidx.appcompat.widget.Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
         if (getSupportActionBar() != null) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
+        toolbar.setNavigationOnClickListener(v -> onBackPressed());
 
-        tvTips = findViewById(R.id.tvTips);
+        tvTips = findViewById(R.id.textViewTips);
         btnPlayVoice = findViewById(R.id.btnPlayVoice);
+
+        // Set the safety tips text from strings.xml
+        tvTips.setText(R.string.safety_tips_text);
 
         // Initialize TextToSpeech
         tts = new TextToSpeech(this, this);
@@ -65,13 +71,13 @@ public class TipsActivity extends AppCompatActivity implements TextToSpeech.OnIn
     }
 
     /**
-     * Speaks the safety tips displayed on the screen.
+     * Speaks the safety tips in Tamil.
      */
     private void speakTips() {
-        if (isTtsInitialized && tvTips != null) {
-            String text = tvTips.getText().toString();
+        if (isTtsInitialized) {
+            String tamilText = getString(R.string.safety_tips_tamil_text);
             // Use TextToSpeech.QUEUE_FLUSH to stop previous speech and start new
-            tts.speak(text, TextToSpeech.QUEUE_FLUSH, null, "TipsSpeechID");
+            tts.speak(tamilText, TextToSpeech.QUEUE_FLUSH, null, "TipsSpeechID");
         } else {
             Toast.makeText(this, "TTS not ready", Toast.LENGTH_SHORT).show();
         }

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.safewalk.coimbatore.pro.app-mergeDebugResources-26:/values-small-v4/values-small-v4.xml",
+            "outputFile": "com.safewalk.coimbatore.pro.app-mergeDebugResources-33:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\vraj4\\.gradle\\caches\\9.0.0\\transforms\\f472f3794980b10284fae3498da0b62e\\transformed\\material-1.9.0\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\vraj4\\.gradle\\caches\\9.0.0\\transforms\\6e5921e033dfa5f072757b3f77d5df81\\transformed\\material-1.11.0\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

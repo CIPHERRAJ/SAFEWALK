@@ -1,0 +1,3 @@
+com.safewalk.coimbatore.pro.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

@@ -28,8 +28,9 @@ import java.util.Locale;
 
 public class ReportActivity extends AppCompatActivity {
 
-    private EditText etIssue;
+    private EditText etIssue, etJunctionName;
     private Button btnSubmit, btnTakePhoto;
+    private android.widget.ImageView imageViewPhoto;
     private static final String PREFS_NAME = "SafeWalkPrefs";
     private static final String KEY_LATEST_ISSUE = "latest_issue";
     private static final int REQUEST_IMAGE_CAPTURE = 1;
@@ -41,13 +42,19 @@ public class ReportActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_report);
 
+        // Setup toolbar
+        androidx.appcompat.widget.Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
         if (getSupportActionBar() != null) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
+        toolbar.setNavigationOnClickListener(v -> onBackPressed());
 
-        etIssue = findViewById(R.id.etIssue);
-        btnTakePhoto = findViewById(R.id.btnTakePhoto);
-        btnSubmit = findViewById(R.id.btnSubmit);
+        etJunctionName = findViewById(R.id.editTextJunctionName);
+        etIssue = findViewById(R.id.editTextDescription);
+        btnTakePhoto = findViewById(R.id.buttonTakePhoto);
+        btnSubmit = findViewById(R.id.buttonSubmit);
+        imageViewPhoto = findViewById(R.id.imageViewPhoto);
 
         btnTakePhoto.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -62,6 +69,16 @@ public class ReportActivity extends AppCompatActivity {
                 submitReport();
             }
         });
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == REQUEST_IMAGE_CAPTURE && resultCode == RESULT_OK) {
+            if (currentPhotoPath != null) {
+                imageViewPhoto.setImageURI(Uri.fromFile(new File(currentPhotoPath)));
+            }
+        }
     }
 
     private void checkPermissionAndTakePhoto() {

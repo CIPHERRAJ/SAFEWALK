@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.safewalk.coimbatore.pro.app-mergeDebugResources-26:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.safewalk.coimbatore.pro.app-mergeDebugResources-33:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "C:\\Users\\vraj4\\.gradle\\caches\\9.0.0\\transforms\\7990f5769f143a813b4d64bc63c5e16a\\transformed\\appcompat-1.6.1\\res\\values-night-v8\\values-night-v8.xml",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\vraj4\\.gradle\\caches\\9.0.0\\transforms\\f472f3794980b10284fae3498da0b62e\\transformed\\material-1.9.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "source": "C:\\Users\\vraj4\\.gradle\\caches\\9.0.0\\transforms\\6e5921e033dfa5f072757b3f77d5df81\\transformed\\material-1.11.0\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
