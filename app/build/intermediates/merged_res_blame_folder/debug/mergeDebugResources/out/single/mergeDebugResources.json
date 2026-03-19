@@ -4,6 +4,10 @@
         "source": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-main-37:\\layout\\recyclerview_item.xml"
     },
     {
+        "merged": "com.safewalk.coimbatore.pro.app-debug-35:/layout_activity_junctions.xml.flat",
+        "source": "com.safewalk.coimbatore.pro.app-main-37:/layout/activity_junctions.xml"
+    },
+    {
         "merged": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-debug-35:\\anim_fade_in_up.xml.flat",
         "source": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-main-37:\\anim\\fade_in_up.xml"
     },
@@ -32,8 +36,8 @@
         "source": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-main-37:\\anim\\layout_fall_down.xml"
     },
     {
-        "merged": "com.safewalk.coimbatore.pro.app-debug-35:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.safewalk.coimbatore.pro.app-main-37:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-debug-35:\\layout_activity_map.xml.flat",
+        "source": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-main-37:\\layout\\activity_map.xml"
     },
     {
         "merged": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-debug-35:\\drawable_ic_launcher_foreground.xml.flat",
@@ -56,8 +60,8 @@
         "source": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-main-37:\\layout\\activity_tips.xml"
     },
     {
-        "merged": "com.safewalk.coimbatore.pro.app-debug-35:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.safewalk.coimbatore.pro.app-main-37:/drawable/ic_launcher_foreground.xml"
+        "merged": "com.safewalk.coimbatore.pro.app-debug-35:/drawable_bg_rounded_search.xml.flat",
+        "source": "com.safewalk.coimbatore.pro.app-main-37:/drawable/bg_rounded_search.xml"
     },
     {
         "merged": "C:\\Users\\vraj4\\.gradle\\daemon\\9.0.0\\com.safewalk.coimbatore.pro.app-debug-35:\\layout_activity_main.xml.flat",

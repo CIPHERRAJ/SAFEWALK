@@ -1412,6 +1412,8 @@ color dim_foreground_disabled_material_dark
 color dim_foreground_disabled_material_light
 color dim_foreground_material_dark
 color dim_foreground_material_light
+color error
+color errorContainer
 color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
@@ -2071,6 +2073,8 @@ color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
+color onError
+color onErrorContainer
 color onPrimary
 color onPrimaryContainer
 color onSecondary
@@ -2989,6 +2993,7 @@ drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
 drawable bg_icon_circle
+drawable bg_rounded_search
 drawable bg_rounded_top
 drawable bonuspack_bubble
 drawable btn_checkbox_checked_mtrl
@@ -3312,6 +3317,8 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id fabSos
+id fabViewMap
 id fade
 id fill
 id fill_horizontal
@@ -3509,7 +3516,7 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
-id searchBar
+id searchView
 id search_badge
 id search_bar
 id search_button
@@ -3755,6 +3762,7 @@ layout abc_tooltip
 layout activity_junction_detail
 layout activity_junctions
 layout activity_main
+layout activity_map
 layout activity_report
 layout activity_tips
 layout bonuspack_bubble
@@ -3884,8 +3892,10 @@ string btn_junctions
 string btn_play_voice
 string btn_report_issue
 string btn_safety_tips
+string btn_sos
 string btn_submit
 string btn_take_photo
+string btn_view_map
 string cacheManagerCancelBody
 string cacheManagerCancelTitle
 string cacheManagerCleanFailed
@@ -4059,6 +4069,9 @@ string set_mode_show_me
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string snapshot
+string sos_calling_police
+string sos_permission_denied
+string sos_sms_sent
 string states
 string status_bar_notification_info_overflow
 string title_home

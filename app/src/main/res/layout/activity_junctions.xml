@@ -18,12 +18,14 @@
             app:title="Junctions Directory"
             app:titleCentered="true" />
 
-        <com.google.android.material.search.SearchBar
-            android:id="@+id/searchBar"
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
-            android:hint="Search junctions..." />
+            android:background="@drawable/bg_rounded_search"
+            app:iconifiedByDefault="false"
+            app:queryHint="Search junctions..." />
 
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -35,5 +37,17 @@
         android:clipToPadding="false"
         android:layoutAnimation="@anim/layout_fall_down"
         app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/fabViewMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:text="@string/btn_view_map"
+        app:icon="@android:drawable/ic_dialog_map"
+        app:backgroundTint="@color/primary"
+        android:textColor="@color/onPrimary"
+        app:iconTint="@color/onPrimary" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

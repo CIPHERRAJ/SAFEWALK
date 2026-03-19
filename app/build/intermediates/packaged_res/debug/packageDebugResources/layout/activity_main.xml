@@ -248,4 +248,16 @@
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/fabSos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="24dp"
+        android:text="@string/btn_sos"
+        app:icon="@android:drawable/ic_menu_call"
+        android:textColor="@color/onError"
+        app:iconTint="@color/onError"
+        app:backgroundTint="@color/error" />
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

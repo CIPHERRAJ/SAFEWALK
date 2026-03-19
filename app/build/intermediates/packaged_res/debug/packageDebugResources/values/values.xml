@@ -2,6 +2,10 @@
 <resources xmlns:ns1="http://schemas.android.com/tools">
     <color name="black">#FF000000</color>
     <color name="card_background">#FFFFFF</color>
+    <color name="error">#BA1A1A</color>
+    <color name="errorContainer">#FFDAD6</color>
+    <color name="onError">#FFFFFF</color>
+    <color name="onErrorContainer">#410002</color>
     <color name="onPrimary">#FFFFFF</color>
     <color name="onPrimaryContainer">#001945</color>
     <color name="onSecondary">#FFFFFF</color>
@@ -25,8 +29,10 @@
     <string name="btn_play_voice">Play Voice</string>
     <string name="btn_report_issue">Report Issue</string>
     <string name="btn_safety_tips">Safety Tips</string>
+    <string name="btn_sos">SOS EMERGENCY</string>
     <string name="btn_submit">Submit Report</string>
     <string name="btn_take_photo">Take Photo</string>
+    <string name="btn_view_map">VIEW ALL ON MAP</string>
     <string name="hint_enter_issue">Enter safety issue here...</string>
     <string name="label_context_tip">CONTEXTUAL TIP: </string>
     <string name="label_risk">RISK LEVEL: </string>
@@ -58,6 +64,9 @@
 9. Walk facing the traffic if there is no sidewalk.\n
 10. Teach children and the elderly safe crossing habits.
     </string>
+    <string name="sos_calling_police">Calling Police (100)...</string>
+    <string name="sos_permission_denied">SOS features require Phone and SMS permissions.</string>
+    <string name="sos_sms_sent">Emergency SMS sent with your location.</string>
     <string name="title_home">SafeWalk Coimbatore</string>
     <style name="TextAppearance.SafeWalk.Header" parent="TextAppearance.Material3.HeadlineMedium">
         <item name="android:textStyle">bold</item>

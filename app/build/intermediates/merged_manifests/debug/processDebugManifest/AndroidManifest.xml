@@ -20,6 +20,8 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
 
     <uses-feature
         android:name="android.hardware.camera"
@@ -58,6 +60,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/Theme.SafeWalkCoimbatorePro" >
         <activity
             android:name="com.safewalk.coimbatore.pro.MainActivity"
@@ -88,6 +91,11 @@
             android:exported="false"
             android:label="Report Issue"
             android:parentActivityName="com.safewalk.coimbatore.pro.MainActivity" />
+        <activity
+            android:name="com.safewalk.coimbatore.pro.MapActivity"
+            android:exported="false"
+            android:label="Safety Map"
+            android:parentActivityName="com.safewalk.coimbatore.pro.JunctionsActivity" />
 
         <provider
             android:name="androidx.core.content.FileProvider"

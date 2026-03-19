@@ -6,12 +6,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.SearchView;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.google.android.material.appbar.MaterialToolbar;
-import com.google.android.material.search.SearchBar;
+import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton;
 import com.safewalk.coimbatore.pro.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -22,20 +23,24 @@ public final class ActivityJunctionsBinding implements ViewBinding {
   private final CoordinatorLayout rootView;
 
   @NonNull
+  public final ExtendedFloatingActionButton fabViewMap;
+
+  @NonNull
   public final RecyclerView recyclerViewJunctions;
 
   @NonNull
-  public final SearchBar searchBar;
+  public final SearchView searchView;
 
   @NonNull
   public final MaterialToolbar toolbar;
 
   private ActivityJunctionsBinding(@NonNull CoordinatorLayout rootView,
-      @NonNull RecyclerView recyclerViewJunctions, @NonNull SearchBar searchBar,
-      @NonNull MaterialToolbar toolbar) {
+      @NonNull ExtendedFloatingActionButton fabViewMap, @NonNull RecyclerView recyclerViewJunctions,
+      @NonNull SearchView searchView, @NonNull MaterialToolbar toolbar) {
     this.rootView = rootView;
+    this.fabViewMap = fabViewMap;
     this.recyclerViewJunctions = recyclerViewJunctions;
-    this.searchBar = searchBar;
+    this.searchView = searchView;
     this.toolbar = toolbar;
   }
 
@@ -66,15 +71,21 @@ public final class ActivityJunctionsBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.fabViewMap;
+      ExtendedFloatingActionButton fabViewMap = ViewBindings.findChildViewById(rootView, id);
+      if (fabViewMap == null) {
+        break missingId;
+      }
+
       id = R.id.recyclerViewJunctions;
       RecyclerView recyclerViewJunctions = ViewBindings.findChildViewById(rootView, id);
       if (recyclerViewJunctions == null) {
         break missingId;
       }
 
-      id = R.id.searchBar;
-      SearchBar searchBar = ViewBindings.findChildViewById(rootView, id);
-      if (searchBar == null) {
+      id = R.id.searchView;
+      SearchView searchView = ViewBindings.findChildViewById(rootView, id);
+      if (searchView == null) {
         break missingId;
       }
 
@@ -84,8 +95,8 @@ public final class ActivityJunctionsBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityJunctionsBinding((CoordinatorLayout) rootView, recyclerViewJunctions,
-          searchBar, toolbar);
+      return new ActivityJunctionsBinding((CoordinatorLayout) rootView, fabViewMap,
+          recyclerViewJunctions, searchView, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

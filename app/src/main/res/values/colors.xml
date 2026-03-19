@@ -30,4 +30,10 @@
     <color name="white">#FFFFFFFF</color>
     
     <color name="card_background">#FFFFFF</color>
+
+    <!-- Error/Emergency Colors -->
+    <color name="error">#BA1A1A</color>
+    <color name="onError">#FFFFFF</color>
+    <color name="errorContainer">#FFDAD6</color>
+    <color name="onErrorContainer">#410002</color>
 </resources>

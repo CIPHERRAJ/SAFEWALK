@@ -4,6 +4,10 @@ anim fade_in_up
 anim layout_fall_down
 color black
 color card_background
+color error
+color errorContainer
+color onError
+color onErrorContainer
 color onPrimary
 color onPrimaryContainer
 color onSecondary
@@ -23,6 +27,7 @@ color tertiary
 color tertiaryContainer
 color white
 drawable bg_icon_circle
+drawable bg_rounded_search
 drawable bg_rounded_top
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -36,11 +41,13 @@ id cardReport
 id cardTips
 id editTextDescription
 id editTextJunctionName
+id fabSos
+id fabViewMap
 id iconContainer
 id imageViewPhoto
 id mapView
 id recyclerViewJunctions
-id searchBar
+id searchView
 id textViewDetailAnalysis
 id textViewDetailName
 id textViewDetailRisk
@@ -52,6 +59,7 @@ id toolbar
 layout activity_junction_detail
 layout activity_junctions
 layout activity_main
+layout activity_map
 layout activity_report
 layout activity_tips
 layout recyclerview_item
@@ -62,8 +70,10 @@ string btn_junctions
 string btn_play_voice
 string btn_report_issue
 string btn_safety_tips
+string btn_sos
 string btn_submit
 string btn_take_photo
+string btn_view_map
 string hint_enter_issue
 string label_context_tip
 string label_risk
@@ -73,6 +83,9 @@ string msg_empty_report
 string msg_report_submitted
 string safety_tips_tamil_text
 string safety_tips_text
+string sos_calling_police
+string sos_permission_denied
+string sos_sms_sent
 string title_home
 style TextAppearance.SafeWalk.Header
 style TextAppearance.SafeWalk.SectionTitle

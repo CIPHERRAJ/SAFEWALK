@@ -36,227 +36,244 @@
 22    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 22-->D:\TK222222222\app\src\main\AndroidManifest.xml:15:5-81
 22-->D:\TK222222222\app\src\main\AndroidManifest.xml:15:22-78
-23
-24    <uses-feature
-24-->D:\TK222222222\app\src\main\AndroidManifest.xml:16:5-85
-25        android:name="android.hardware.camera"
-25-->D:\TK222222222\app\src\main\AndroidManifest.xml:16:19-57
-26        android:required="false" />
-26-->D:\TK222222222\app\src\main\AndroidManifest.xml:16:58-82
-27
-28    <permission
-28-->[androidx.core:core:1.9.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\9b615a666f43acfea9de917e4981dbc6\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
-29        android:name="com.safewalk.coimbatore.pro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-29-->[androidx.core:core:1.9.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\9b615a666f43acfea9de917e4981dbc6\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
-30        android:protectionLevel="signature" />
-30-->[androidx.core:core:1.9.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\9b615a666f43acfea9de917e4981dbc6\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
-31
-32    <uses-permission android:name="com.safewalk.coimbatore.pro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-32-->[androidx.core:core:1.9.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\9b615a666f43acfea9de917e4981dbc6\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-32-->[androidx.core:core:1.9.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\9b615a666f43acfea9de917e4981dbc6\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+23    <uses-permission android:name="android.permission.CALL_PHONE" />
+23-->D:\TK222222222\app\src\main\AndroidManifest.xml:16:5-69
+23-->D:\TK222222222\app\src\main\AndroidManifest.xml:16:22-66
+24    <uses-permission android:name="android.permission.SEND_SMS" />
+24-->D:\TK222222222\app\src\main\AndroidManifest.xml:17:5-67
+24-->D:\TK222222222\app\src\main\AndroidManifest.xml:17:22-64
+25
+26    <uses-feature
+26-->D:\TK222222222\app\src\main\AndroidManifest.xml:18:5-85
+27        android:name="android.hardware.camera"
+27-->D:\TK222222222\app\src\main\AndroidManifest.xml:18:19-57
+28        android:required="false" />
+28-->D:\TK222222222\app\src\main\AndroidManifest.xml:18:58-82
+29
+30    <permission
+30-->[androidx.core:core:1.9.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\9b615a666f43acfea9de917e4981dbc6\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+31        android:name="com.safewalk.coimbatore.pro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+31-->[androidx.core:core:1.9.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\9b615a666f43acfea9de917e4981dbc6\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+32        android:protectionLevel="signature" />
+32-->[androidx.core:core:1.9.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\9b615a666f43acfea9de917e4981dbc6\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
 33
-34    <supports-screens
-34-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\da05e7e9169a168c7540802e170b229b\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:9:5-12:40
-35        android:anyDensity="true"
-35-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\da05e7e9169a168c7540802e170b229b\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:10:9-34
-36        android:largeScreens="true"
-36-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\da05e7e9169a168c7540802e170b229b\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:11:9-36
-37        android:normalScreens="true" />
-37-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\da05e7e9169a168c7540802e170b229b\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:12:9-37
-38
-39    <uses-feature
-39-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\da05e7e9169a168c7540802e170b229b\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:14:5-16:36
-40        android:name="android.hardware.location.network"
-40-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\da05e7e9169a168c7540802e170b229b\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:15:9-57
-41        android:required="false" />
-41-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\da05e7e9169a168c7540802e170b229b\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:16:9-33
-42    <uses-feature
-42-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\da05e7e9169a168c7540802e170b229b\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:17:5-19:36
-43        android:name="android.hardware.location.gps"
-43-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\da05e7e9169a168c7540802e170b229b\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:18:9-53
-44        android:required="false" />
-44-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\da05e7e9169a168c7540802e170b229b\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:19:9-33
-45    <uses-feature
-45-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\da05e7e9169a168c7540802e170b229b\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:20:5-22:36
-46        android:name="android.hardware.telephony"
-46-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\da05e7e9169a168c7540802e170b229b\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:21:9-50
-47        android:required="false" />
-47-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\da05e7e9169a168c7540802e170b229b\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:22:9-33
-48    <uses-feature
-48-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\da05e7e9169a168c7540802e170b229b\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:23:5-25:36
-49        android:name="android.hardware.wifi"
-49-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\da05e7e9169a168c7540802e170b229b\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:24:9-45
-50        android:required="false" />
-50-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\da05e7e9169a168c7540802e170b229b\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:25:9-33
-51
-52    <application
-52-->D:\TK222222222\app\src\main\AndroidManifest.xml:18:5-69:19
-53        android:allowBackup="true"
-53-->D:\TK222222222\app\src\main\AndroidManifest.xml:19:9-35
-54        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-54-->[androidx.core:core:1.9.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\9b615a666f43acfea9de917e4981dbc6\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
-55        android:debuggable="true"
-56        android:extractNativeLibs="false"
-57        android:icon="@mipmap/ic_launcher"
-57-->D:\TK222222222\app\src\main\AndroidManifest.xml:20:9-43
-58        android:label="@string/app_name"
-58-->D:\TK222222222\app\src\main\AndroidManifest.xml:21:9-41
-59        android:roundIcon="@mipmap/ic_launcher_round"
-59-->D:\TK222222222\app\src\main\AndroidManifest.xml:22:9-54
-60        android:supportsRtl="true"
-60-->D:\TK222222222\app\src\main\AndroidManifest.xml:23:9-35
-61        android:theme="@style/Theme.SafeWalkCoimbatorePro" >
-61-->D:\TK222222222\app\src\main\AndroidManifest.xml:24:9-59
-62        <activity
-62-->D:\TK222222222\app\src\main\AndroidManifest.xml:26:9-33:20
-63            android:name="com.safewalk.coimbatore.pro.MainActivity"
-63-->D:\TK222222222\app\src\main\AndroidManifest.xml:27:13-41
-64            android:exported="true" >
-64-->D:\TK222222222\app\src\main\AndroidManifest.xml:28:13-36
-65            <intent-filter>
-65-->D:\TK222222222\app\src\main\AndroidManifest.xml:29:13-32:29
-66                <action android:name="android.intent.action.MAIN" />
-66-->D:\TK222222222\app\src\main\AndroidManifest.xml:30:17-69
-66-->D:\TK222222222\app\src\main\AndroidManifest.xml:30:25-66
-67
-68                <category android:name="android.intent.category.LAUNCHER" />
-68-->D:\TK222222222\app\src\main\AndroidManifest.xml:31:17-77
-68-->D:\TK222222222\app\src\main\AndroidManifest.xml:31:27-74
-69            </intent-filter>
-70        </activity>
-71        <activity
-71-->D:\TK222222222\app\src\main\AndroidManifest.xml:35:9-39:58
-72            android:name="com.safewalk.coimbatore.pro.JunctionsActivity"
-72-->D:\TK222222222\app\src\main\AndroidManifest.xml:36:13-46
-73            android:exported="false"
-73-->D:\TK222222222\app\src\main\AndroidManifest.xml:37:13-37
-74            android:label="Junctions Directory"
-74-->D:\TK222222222\app\src\main\AndroidManifest.xml:38:13-48
-75            android:parentActivityName="com.safewalk.coimbatore.pro.MainActivity" />
-75-->D:\TK222222222\app\src\main\AndroidManifest.xml:39:13-55
-76        <activity
-76-->D:\TK222222222\app\src\main\AndroidManifest.xml:41:9-45:63
-77            android:name="com.safewalk.coimbatore.pro.JunctionDetailActivity"
-77-->D:\TK222222222\app\src\main\AndroidManifest.xml:42:13-51
-78            android:exported="false"
-78-->D:\TK222222222\app\src\main\AndroidManifest.xml:43:13-37
-79            android:label="Junction Analysis"
-79-->D:\TK222222222\app\src\main\AndroidManifest.xml:44:13-46
-80            android:parentActivityName="com.safewalk.coimbatore.pro.JunctionsActivity" />
-80-->D:\TK222222222\app\src\main\AndroidManifest.xml:45:13-60
-81        <activity
-81-->D:\TK222222222\app\src\main\AndroidManifest.xml:47:9-51:58
-82            android:name="com.safewalk.coimbatore.pro.TipsActivity"
-82-->D:\TK222222222\app\src\main\AndroidManifest.xml:48:13-41
-83            android:exported="false"
-83-->D:\TK222222222\app\src\main\AndroidManifest.xml:49:13-37
-84            android:label="Safety Tips"
-84-->D:\TK222222222\app\src\main\AndroidManifest.xml:50:13-40
-85            android:parentActivityName="com.safewalk.coimbatore.pro.MainActivity" />
-85-->D:\TK222222222\app\src\main\AndroidManifest.xml:51:13-55
-86        <activity
-86-->D:\TK222222222\app\src\main\AndroidManifest.xml:53:9-57:58
-87            android:name="com.safewalk.coimbatore.pro.ReportActivity"
-87-->D:\TK222222222\app\src\main\AndroidManifest.xml:54:13-43
-88            android:exported="false"
-88-->D:\TK222222222\app\src\main\AndroidManifest.xml:55:13-37
-89            android:label="Report Issue"
-89-->D:\TK222222222\app\src\main\AndroidManifest.xml:56:13-41
-90            android:parentActivityName="com.safewalk.coimbatore.pro.MainActivity" />
-90-->D:\TK222222222\app\src\main\AndroidManifest.xml:57:13-55
-91
-92        <provider
-92-->D:\TK222222222\app\src\main\AndroidManifest.xml:59:9-67:20
-93            android:name="androidx.core.content.FileProvider"
-93-->D:\TK222222222\app\src\main\AndroidManifest.xml:60:13-62
-94            android:authorities="com.safewalk.coimbatore.pro.fileprovider"
-94-->D:\TK222222222\app\src\main\AndroidManifest.xml:61:13-75
-95            android:exported="false"
-95-->D:\TK222222222\app\src\main\AndroidManifest.xml:62:13-37
-96            android:grantUriPermissions="true" >
-96-->D:\TK222222222\app\src\main\AndroidManifest.xml:63:13-47
-97            <meta-data
-97-->D:\TK222222222\app\src\main\AndroidManifest.xml:64:13-66:54
-98                android:name="android.support.FILE_PROVIDER_PATHS"
-98-->D:\TK222222222\app\src\main\AndroidManifest.xml:65:17-67
-99                android:resource="@xml/file_paths" />
-99-->D:\TK222222222\app\src\main\AndroidManifest.xml:66:17-51
-100        </provider>
-101
-102        <service
-102-->[androidx.room:room-runtime:2.6.1] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\fd483aef63e64ccf8e3450c28257d801\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
-103            android:name="androidx.room.MultiInstanceInvalidationService"
-103-->[androidx.room:room-runtime:2.6.1] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\fd483aef63e64ccf8e3450c28257d801\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
-104            android:directBootAware="true"
-104-->[androidx.room:room-runtime:2.6.1] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\fd483aef63e64ccf8e3450c28257d801\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
-105            android:exported="false" />
-105-->[androidx.room:room-runtime:2.6.1] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\fd483aef63e64ccf8e3450c28257d801\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
-106
-107        <provider
-107-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\23f283ad62868ad7905091603f62eab2\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-108            android:name="androidx.startup.InitializationProvider"
-108-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\23f283ad62868ad7905091603f62eab2\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-109            android:authorities="com.safewalk.coimbatore.pro.androidx-startup"
-109-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\23f283ad62868ad7905091603f62eab2\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-110            android:exported="false" >
-110-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\23f283ad62868ad7905091603f62eab2\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-111            <meta-data
-111-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\23f283ad62868ad7905091603f62eab2\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-112                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-112-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\23f283ad62868ad7905091603f62eab2\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-113                android:value="androidx.startup" />
-113-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\23f283ad62868ad7905091603f62eab2\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-114            <meta-data
-114-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\e1815e57efde543752cf56ca5ecd070d\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-115                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-115-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\e1815e57efde543752cf56ca5ecd070d\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-116                android:value="androidx.startup" />
-116-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\e1815e57efde543752cf56ca5ecd070d\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
-117            <meta-data
-117-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\68968a1d1efa28d7994ea1ce80222e8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-118                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-118-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\68968a1d1efa28d7994ea1ce80222e8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
-119                android:value="androidx.startup" />
-119-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\68968a1d1efa28d7994ea1ce80222e8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-120        </provider>
-121
-122        <receiver
-122-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\68968a1d1efa28d7994ea1ce80222e8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-123            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-123-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\68968a1d1efa28d7994ea1ce80222e8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-124            android:directBootAware="false"
-124-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\68968a1d1efa28d7994ea1ce80222e8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-125            android:enabled="true"
-125-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\68968a1d1efa28d7994ea1ce80222e8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-126            android:exported="true"
-126-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\68968a1d1efa28d7994ea1ce80222e8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-127            android:permission="android.permission.DUMP" >
-127-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\68968a1d1efa28d7994ea1ce80222e8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-128            <intent-filter>
-128-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\68968a1d1efa28d7994ea1ce80222e8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-129                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-129-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\68968a1d1efa28d7994ea1ce80222e8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-129-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\68968a1d1efa28d7994ea1ce80222e8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-130            </intent-filter>
-131            <intent-filter>
-131-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\68968a1d1efa28d7994ea1ce80222e8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-132                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-132-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\68968a1d1efa28d7994ea1ce80222e8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-132-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\68968a1d1efa28d7994ea1ce80222e8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
-133            </intent-filter>
-134            <intent-filter>
-134-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\68968a1d1efa28d7994ea1ce80222e8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-135                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-135-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\68968a1d1efa28d7994ea1ce80222e8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-135-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\68968a1d1efa28d7994ea1ce80222e8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
-136            </intent-filter>
-137            <intent-filter>
-137-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\68968a1d1efa28d7994ea1ce80222e8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-138                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-138-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\68968a1d1efa28d7994ea1ce80222e8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-138-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\68968a1d1efa28d7994ea1ce80222e8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
-139            </intent-filter>
-140        </receiver>
-141    </application>
-142
-143</manifest>
+34    <uses-permission android:name="com.safewalk.coimbatore.pro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+34-->[androidx.core:core:1.9.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\9b615a666f43acfea9de917e4981dbc6\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+34-->[androidx.core:core:1.9.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\9b615a666f43acfea9de917e4981dbc6\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+35
+36    <supports-screens
+36-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\da05e7e9169a168c7540802e170b229b\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:9:5-12:40
+37        android:anyDensity="true"
+37-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\da05e7e9169a168c7540802e170b229b\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:10:9-34
+38        android:largeScreens="true"
+38-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\da05e7e9169a168c7540802e170b229b\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:11:9-36
+39        android:normalScreens="true" />
+39-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\da05e7e9169a168c7540802e170b229b\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:12:9-37
+40
+41    <uses-feature
+41-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\da05e7e9169a168c7540802e170b229b\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:14:5-16:36
+42        android:name="android.hardware.location.network"
+42-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\da05e7e9169a168c7540802e170b229b\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:15:9-57
+43        android:required="false" />
+43-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\da05e7e9169a168c7540802e170b229b\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:16:9-33
+44    <uses-feature
+44-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\da05e7e9169a168c7540802e170b229b\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:17:5-19:36
+45        android:name="android.hardware.location.gps"
+45-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\da05e7e9169a168c7540802e170b229b\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:18:9-53
+46        android:required="false" />
+46-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\da05e7e9169a168c7540802e170b229b\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:19:9-33
+47    <uses-feature
+47-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\da05e7e9169a168c7540802e170b229b\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:20:5-22:36
+48        android:name="android.hardware.telephony"
+48-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\da05e7e9169a168c7540802e170b229b\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:21:9-50
+49        android:required="false" />
+49-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\da05e7e9169a168c7540802e170b229b\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:22:9-33
+50    <uses-feature
+50-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\da05e7e9169a168c7540802e170b229b\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:23:5-25:36
+51        android:name="android.hardware.wifi"
+51-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\da05e7e9169a168c7540802e170b229b\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:24:9-45
+52        android:required="false" />
+52-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\da05e7e9169a168c7540802e170b229b\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:25:9-33
+53
+54    <application
+54-->D:\TK222222222\app\src\main\AndroidManifest.xml:20:5-77:19
+55        android:allowBackup="true"
+55-->D:\TK222222222\app\src\main\AndroidManifest.xml:21:9-35
+56        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+56-->[androidx.core:core:1.9.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\9b615a666f43acfea9de917e4981dbc6\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+57        android:debuggable="true"
+58        android:extractNativeLibs="false"
+59        android:icon="@mipmap/ic_launcher"
+59-->D:\TK222222222\app\src\main\AndroidManifest.xml:22:9-43
+60        android:label="@string/app_name"
+60-->D:\TK222222222\app\src\main\AndroidManifest.xml:23:9-41
+61        android:roundIcon="@mipmap/ic_launcher_round"
+61-->D:\TK222222222\app\src\main\AndroidManifest.xml:24:9-54
+62        android:supportsRtl="true"
+62-->D:\TK222222222\app\src\main\AndroidManifest.xml:25:9-35
+63        android:testOnly="true"
+64        android:theme="@style/Theme.SafeWalkCoimbatorePro" >
+64-->D:\TK222222222\app\src\main\AndroidManifest.xml:26:9-59
+65        <activity
+65-->D:\TK222222222\app\src\main\AndroidManifest.xml:28:9-35:20
+66            android:name="com.safewalk.coimbatore.pro.MainActivity"
+66-->D:\TK222222222\app\src\main\AndroidManifest.xml:29:13-41
+67            android:exported="true" >
+67-->D:\TK222222222\app\src\main\AndroidManifest.xml:30:13-36
+68            <intent-filter>
+68-->D:\TK222222222\app\src\main\AndroidManifest.xml:31:13-34:29
+69                <action android:name="android.intent.action.MAIN" />
+69-->D:\TK222222222\app\src\main\AndroidManifest.xml:32:17-69
+69-->D:\TK222222222\app\src\main\AndroidManifest.xml:32:25-66
+70
+71                <category android:name="android.intent.category.LAUNCHER" />
+71-->D:\TK222222222\app\src\main\AndroidManifest.xml:33:17-77
+71-->D:\TK222222222\app\src\main\AndroidManifest.xml:33:27-74
+72            </intent-filter>
+73        </activity>
+74        <activity
+74-->D:\TK222222222\app\src\main\AndroidManifest.xml:37:9-41:58
+75            android:name="com.safewalk.coimbatore.pro.JunctionsActivity"
+75-->D:\TK222222222\app\src\main\AndroidManifest.xml:38:13-46
+76            android:exported="false"
+76-->D:\TK222222222\app\src\main\AndroidManifest.xml:39:13-37
+77            android:label="Junctions Directory"
+77-->D:\TK222222222\app\src\main\AndroidManifest.xml:40:13-48
+78            android:parentActivityName="com.safewalk.coimbatore.pro.MainActivity" />
+78-->D:\TK222222222\app\src\main\AndroidManifest.xml:41:13-55
+79        <activity
+79-->D:\TK222222222\app\src\main\AndroidManifest.xml:43:9-47:63
+80            android:name="com.safewalk.coimbatore.pro.JunctionDetailActivity"
+80-->D:\TK222222222\app\src\main\AndroidManifest.xml:44:13-51
+81            android:exported="false"
+81-->D:\TK222222222\app\src\main\AndroidManifest.xml:45:13-37
+82            android:label="Junction Analysis"
+82-->D:\TK222222222\app\src\main\AndroidManifest.xml:46:13-46
+83            android:parentActivityName="com.safewalk.coimbatore.pro.JunctionsActivity" />
+83-->D:\TK222222222\app\src\main\AndroidManifest.xml:47:13-60
+84        <activity
+84-->D:\TK222222222\app\src\main\AndroidManifest.xml:49:9-53:58
+85            android:name="com.safewalk.coimbatore.pro.TipsActivity"
+85-->D:\TK222222222\app\src\main\AndroidManifest.xml:50:13-41
+86            android:exported="false"
+86-->D:\TK222222222\app\src\main\AndroidManifest.xml:51:13-37
+87            android:label="Safety Tips"
+87-->D:\TK222222222\app\src\main\AndroidManifest.xml:52:13-40
+88            android:parentActivityName="com.safewalk.coimbatore.pro.MainActivity" />
+88-->D:\TK222222222\app\src\main\AndroidManifest.xml:53:13-55
+89        <activity
+89-->D:\TK222222222\app\src\main\AndroidManifest.xml:55:9-59:58
+90            android:name="com.safewalk.coimbatore.pro.ReportActivity"
+90-->D:\TK222222222\app\src\main\AndroidManifest.xml:56:13-43
+91            android:exported="false"
+91-->D:\TK222222222\app\src\main\AndroidManifest.xml:57:13-37
+92            android:label="Report Issue"
+92-->D:\TK222222222\app\src\main\AndroidManifest.xml:58:13-41
+93            android:parentActivityName="com.safewalk.coimbatore.pro.MainActivity" />
+93-->D:\TK222222222\app\src\main\AndroidManifest.xml:59:13-55
+94        <activity
+94-->D:\TK222222222\app\src\main\AndroidManifest.xml:61:9-65:63
+95            android:name="com.safewalk.coimbatore.pro.MapActivity"
+95-->D:\TK222222222\app\src\main\AndroidManifest.xml:62:13-40
+96            android:exported="false"
+96-->D:\TK222222222\app\src\main\AndroidManifest.xml:63:13-37
+97            android:label="Safety Map"
+97-->D:\TK222222222\app\src\main\AndroidManifest.xml:64:13-39
+98            android:parentActivityName="com.safewalk.coimbatore.pro.JunctionsActivity" />
+98-->D:\TK222222222\app\src\main\AndroidManifest.xml:65:13-60
+99
+100        <provider
+100-->D:\TK222222222\app\src\main\AndroidManifest.xml:67:9-75:20
+101            android:name="androidx.core.content.FileProvider"
+101-->D:\TK222222222\app\src\main\AndroidManifest.xml:68:13-62
+102            android:authorities="com.safewalk.coimbatore.pro.fileprovider"
+102-->D:\TK222222222\app\src\main\AndroidManifest.xml:69:13-75
+103            android:exported="false"
+103-->D:\TK222222222\app\src\main\AndroidManifest.xml:70:13-37
+104            android:grantUriPermissions="true" >
+104-->D:\TK222222222\app\src\main\AndroidManifest.xml:71:13-47
+105            <meta-data
+105-->D:\TK222222222\app\src\main\AndroidManifest.xml:72:13-74:54
+106                android:name="android.support.FILE_PROVIDER_PATHS"
+106-->D:\TK222222222\app\src\main\AndroidManifest.xml:73:17-67
+107                android:resource="@xml/file_paths" />
+107-->D:\TK222222222\app\src\main\AndroidManifest.xml:74:17-51
+108        </provider>
+109
+110        <service
+110-->[androidx.room:room-runtime:2.6.1] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\fd483aef63e64ccf8e3450c28257d801\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+111            android:name="androidx.room.MultiInstanceInvalidationService"
+111-->[androidx.room:room-runtime:2.6.1] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\fd483aef63e64ccf8e3450c28257d801\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+112            android:directBootAware="true"
+112-->[androidx.room:room-runtime:2.6.1] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\fd483aef63e64ccf8e3450c28257d801\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+113            android:exported="false" />
+113-->[androidx.room:room-runtime:2.6.1] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\fd483aef63e64ccf8e3450c28257d801\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+114
+115        <provider
+115-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\23f283ad62868ad7905091603f62eab2\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+116            android:name="androidx.startup.InitializationProvider"
+116-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\23f283ad62868ad7905091603f62eab2\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+117            android:authorities="com.safewalk.coimbatore.pro.androidx-startup"
+117-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\23f283ad62868ad7905091603f62eab2\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+118            android:exported="false" >
+118-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\23f283ad62868ad7905091603f62eab2\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+119            <meta-data
+119-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\23f283ad62868ad7905091603f62eab2\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+120                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+120-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\23f283ad62868ad7905091603f62eab2\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+121                android:value="androidx.startup" />
+121-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\23f283ad62868ad7905091603f62eab2\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+122            <meta-data
+122-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\e1815e57efde543752cf56ca5ecd070d\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+123                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+123-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\e1815e57efde543752cf56ca5ecd070d\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+124                android:value="androidx.startup" />
+124-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\e1815e57efde543752cf56ca5ecd070d\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+125            <meta-data
+125-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\68968a1d1efa28d7994ea1ce80222e8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+126                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+126-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\68968a1d1efa28d7994ea1ce80222e8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+127                android:value="androidx.startup" />
+127-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\68968a1d1efa28d7994ea1ce80222e8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+128        </provider>
+129
+130        <receiver
+130-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\68968a1d1efa28d7994ea1ce80222e8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+131            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+131-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\68968a1d1efa28d7994ea1ce80222e8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+132            android:directBootAware="false"
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\68968a1d1efa28d7994ea1ce80222e8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+133            android:enabled="true"
+133-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\68968a1d1efa28d7994ea1ce80222e8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+134            android:exported="true"
+134-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\68968a1d1efa28d7994ea1ce80222e8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+135            android:permission="android.permission.DUMP" >
+135-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\68968a1d1efa28d7994ea1ce80222e8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+136            <intent-filter>
+136-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\68968a1d1efa28d7994ea1ce80222e8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+137                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+137-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\68968a1d1efa28d7994ea1ce80222e8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+137-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\68968a1d1efa28d7994ea1ce80222e8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+138            </intent-filter>
+139            <intent-filter>
+139-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\68968a1d1efa28d7994ea1ce80222e8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+140                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\68968a1d1efa28d7994ea1ce80222e8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\68968a1d1efa28d7994ea1ce80222e8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+141            </intent-filter>
+142            <intent-filter>
+142-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\68968a1d1efa28d7994ea1ce80222e8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+143                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+143-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\68968a1d1efa28d7994ea1ce80222e8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+143-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\68968a1d1efa28d7994ea1ce80222e8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+144            </intent-filter>
+145            <intent-filter>
+145-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\68968a1d1efa28d7994ea1ce80222e8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+146                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+146-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\68968a1d1efa28d7994ea1ce80222e8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+146-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vraj4\.gradle\caches\9.0.0\transforms\68968a1d1efa28d7994ea1ce80222e8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+147            </intent-filter>
+148        </receiver>
+149    </application>
+150
+151</manifest>

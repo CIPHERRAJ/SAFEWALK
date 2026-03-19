@@ -1411,6 +1411,8 @@ int color dim_foreground_disabled_material_dark 0x7f050055
 int color dim_foreground_disabled_material_light 0x7f050056
 int color dim_foreground_material_dark 0x7f050057
 int color dim_foreground_material_light 0x7f050058
+int color error 0x7f050314
+int color errorContainer 0x7f050315
 int color error_color_material_dark 0x7f050059
 int color error_color_material_light 0x7f05005a
 int color foreground_material_dark 0x7f05005b
@@ -2070,6 +2072,8 @@ int color mtrl_textinput_focused_box_stroke_color 0x7f0502e8
 int color mtrl_textinput_hovered_box_stroke_color 0x7f0502e9
 int color notification_action_color_filter 0x7f0502ea
 int color notification_icon_bg_color 0x7f0502eb
+int color onError 0x7f050316
+int color onErrorContainer 0x7f050317
 int color onPrimary 0x7f0502ec
 int color onPrimaryContainer 0x7f0502ed
 int color onSecondary 0x7f0502ee
@@ -2988,6 +2992,7 @@ int drawable abc_vector_test 0x7f070076
 int drawable avd_hide_password 0x7f070077
 int drawable avd_show_password 0x7f070078
 int drawable bg_icon_circle 0x7f070079
+int drawable bg_rounded_search 0x7f0700f9
 int drawable bg_rounded_top 0x7f07007a
 int drawable bonuspack_bubble 0x7f07007b
 int drawable btn_checkbox_checked_mtrl 0x7f07007c
@@ -3311,6 +3316,8 @@ int id enterAlwaysCollapsed 0x7f0800c0
 int id exitUntilCollapsed 0x7f0800c1
 int id expand_activities_button 0x7f0800c2
 int id expanded_menu 0x7f0800c3
+int id fabSos 0x7f08020a
+int id fabViewMap 0x7f08020b
 int id fade 0x7f0800c4
 int id fill 0x7f0800c5
 int id fill_horizontal 0x7f0800c6
@@ -3508,7 +3515,7 @@ int id scrollIndicatorDown 0x7f080185
 int id scrollIndicatorUp 0x7f080186
 int id scrollView 0x7f080187
 int id scrollable 0x7f080188
-int id searchBar 0x7f080189
+int id searchView 0x7f08020c
 int id search_badge 0x7f08018a
 int id search_bar 0x7f08018b
 int id search_button 0x7f08018c
@@ -3754,6 +3761,7 @@ int layout abc_tooltip 0x7f0b001b
 int layout activity_junction_detail 0x7f0b001c
 int layout activity_junctions 0x7f0b001d
 int layout activity_main 0x7f0b001e
+int layout activity_map 0x7f0b0070
 int layout activity_report 0x7f0b001f
 int layout activity_tips 0x7f0b0020
 int layout bonuspack_bubble 0x7f0b0021
@@ -3883,8 +3891,10 @@ int string btn_junctions 0x7f0f0029
 int string btn_play_voice 0x7f0f002a
 int string btn_report_issue 0x7f0f002b
 int string btn_safety_tips 0x7f0f002c
+int string btn_sos 0x7f0f00e1
 int string btn_submit 0x7f0f002d
 int string btn_take_photo 0x7f0f002e
+int string btn_view_map 0x7f0f00e2
 int string cacheManagerCancelBody 0x7f0f002f
 int string cacheManagerCancelTitle 0x7f0f0030
 int string cacheManagerCleanFailed 0x7f0f0031
@@ -4058,6 +4068,9 @@ int string set_mode_show_me 0x7f0f00d8
 int string side_sheet_accessibility_pane_title 0x7f0f00d9
 int string side_sheet_behavior 0x7f0f00da
 int string snapshot 0x7f0f00db
+int string sos_calling_police 0x7f0f00e3
+int string sos_permission_denied 0x7f0f00e4
+int string sos_sms_sent 0x7f0f00e5
 int string states 0x7f0f00dc
 int string status_bar_notification_info_overflow 0x7f0f00dd
 int string title_home 0x7f0f00de

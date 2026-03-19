@@ -11,6 +11,7 @@ import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.google.android.material.appbar.MaterialToolbar;
 import com.google.android.material.card.MaterialCardView;
+import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton;
 import com.safewalk.coimbatore.pro.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -30,15 +31,20 @@ public final class ActivityMainBinding implements ViewBinding {
   public final MaterialCardView cardTips;
 
   @NonNull
+  public final ExtendedFloatingActionButton fabSos;
+
+  @NonNull
   public final MaterialToolbar toolbar;
 
   private ActivityMainBinding(@NonNull CoordinatorLayout rootView,
       @NonNull MaterialCardView cardJunctions, @NonNull MaterialCardView cardReport,
-      @NonNull MaterialCardView cardTips, @NonNull MaterialToolbar toolbar) {
+      @NonNull MaterialCardView cardTips, @NonNull ExtendedFloatingActionButton fabSos,
+      @NonNull MaterialToolbar toolbar) {
     this.rootView = rootView;
     this.cardJunctions = cardJunctions;
     this.cardReport = cardReport;
     this.cardTips = cardTips;
+    this.fabSos = fabSos;
     this.toolbar = toolbar;
   }
 
@@ -87,6 +93,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.fabSos;
+      ExtendedFloatingActionButton fabSos = ViewBindings.findChildViewById(rootView, id);
+      if (fabSos == null) {
+        break missingId;
+      }
+
       id = R.id.toolbar;
       MaterialToolbar toolbar = ViewBindings.findChildViewById(rootView, id);
       if (toolbar == null) {
@@ -94,7 +106,7 @@ public final class ActivityMainBinding implements ViewBinding {
       }
 
       return new ActivityMainBinding((CoordinatorLayout) rootView, cardJunctions, cardReport,
-          cardTips, toolbar);
+          cardTips, fabSos, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

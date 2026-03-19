@@ -13,6 +13,8 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
     <uses-feature android:name="android.hardware.camera" android:required="false" />
 
     <application
@@ -55,6 +57,12 @@
             android:exported="false"
             android:label="Report Issue"
             android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".MapActivity"
+            android:exported="false"
+            android:label="Safety Map"
+            android:parentActivityName=".JunctionsActivity" />
 
         <provider
             android:name="androidx.core.content.FileProvider"

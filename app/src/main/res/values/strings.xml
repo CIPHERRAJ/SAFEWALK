@@ -10,6 +10,11 @@
     <string name="hint_enter_issue">Enter safety issue here...</string>
     <string name="msg_report_submitted">Report submitted successfully!</string>
     <string name="msg_empty_report">Please enter an issue before submitting.</string>
+    <string name="btn_sos">SOS EMERGENCY</string>
+    <string name="sos_calling_police">Calling Police (100)...</string>
+    <string name="sos_sms_sent">Emergency SMS sent with your location.</string>
+    <string name="sos_permission_denied">SOS features require Phone and SMS permissions.</string>
+    <string name="btn_view_map">VIEW ALL ON MAP</string>
     
     <!-- Junction Detail Labels -->
     <string name="label_traffic">TRAFFIC DENSITY: </string>
