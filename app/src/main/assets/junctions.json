@@ -1,33 +1,41 @@
 [
   {
-    "name": "Gandhipuram Junction",
+    "name": "Gandhipuram",
     "safetyScore": "High Risk",
-    "details": "High traffic, complex pedestrian crossings.",
-    "tamilDetails": "காந்திபுரம் சந்திப்பு: அதிக வாகன போக்குவரத்து மற்றும் பாதசாரிகள் கடப்பதில் சிக்கல்கள் உள்ள பகுதி. மிகுந்த எச்சரிக்கையுடன் கடக்கவும்.",
+    "details": "Wait for the pedestrian signal before crossing the road.",
+    "tamilDetails": "Gandhipuram -சாலை கடக்க முன், பாதசாரிகளுக்கான சிக்னல் வரும் வரை காத்திருக்க வேண்டும்",
     "latitude": 11.0183,
     "longitude": 76.9682
   },
   {
-    "name": "Lakshmi Mills Junction",
+    "name": "Anna silai",
+    "safetyScore": "High Risk",
+    "details": "Use zebra crossing while crossing the road, be safe and careful.",
+    "tamilDetails": "Anna silai-சாலையை கடக்கும் போது ஜீப்ரா கடப்பாதையை பயன்படுத்தி, பாதுகாப்பாகவும் கவனமாகவும் கடக்க வேண்டும்",
+    "latitude": 11.0066,
+    "longitude": 76.9752
+  },
+  {
+    "name": "Lashmi Mill",
     "safetyScore": "Moderate Risk",
-    "details": "Heavy flow during peak hours, improved signals.",
-    "tamilDetails": "லட்சுமி மில்ஸ் சந்திப்பு: அலுவலக நேரங்களில் போக்குவரத்து நெரிசல் அதிகமாக இருக்கும். மேம்படுத்தப்பட்ட சிக்னல்கள் இருப்பதால் மிதமான ஆபத்து உடையது.",
+    "details": "Wait for the signal before crossing the road, avoid crossing at wrong places and stay safe.",
+    "tamilDetails": "Lashmi Mill -சாலை கடக்கும் முன் சிக்னல் வரும் வரை காத்திருந்து, தவறான இடங்களில் சாலை கடக்காமல் பாதுகாப்பாக இருக்க வேண்டும்",
     "latitude": 11.0135,
     "longitude": 76.9856
   },
   {
-    "name": "Hope College Junction",
+    "name": "Singanallur",
     "safetyScore": "High Risk",
-    "details": "Bridge construction area, narrow paths.",
-    "tamilDetails": "ஹோப் காலேஜ் சந்திப்பு: மேம்பாலப் பணிகள் நடைபெறுதால் சாலை குறுகலாக உள்ளது. விபத்து அபாயம் அதிகம், கவனம் தேவை.",
-    "latitude": 11.0252,
-    "longitude": 77.0011
+    "details": "Choose a safe spot to cross the road, be careful and watch for fast-moving vehicles.",
+    "tamilDetails": "Singanallur -சாலையை கடக்கும் போது பாதுகாப்பான இடத்தை தேர்வு செய்து, வேகமாக வரும் வாகனங்களை பார்த்து கவனமாக இருக்க வேண்டும்",
+    "latitude": 11.0042,
+    "longitude": 77.0243
   },
   {
-    "name": "Ukkadam Junction",
+    "name": "Ukkadam",
     "safetyScore": "High Risk",
-    "details": "Busy bus terminal area, missing footpaths.",
-    "tamilDetails": "உக்கடம் சந்திப்பு: பேருந்து நிலையம் அருகில் இருப்பதால் எப்போதும் பரபரப்பாக இருக்கும். முறையான நடைபாதைகள் இல்லாததால் பாதசாரிகளுக்கு அதிக ஆபத்து.",
+    "details": "Use zebra crossing while crossing the road, always stay alert.",
+    "tamilDetails": "Ukkadam -சாலை கடக்கும் போது ஜீப்ரா கடப்பாதையை பயன்படுத்தி, எப்போதும் விழிப்புடன் இருக்க வேண்டும்",
     "latitude": 10.9950,
     "longitude": 76.9620
   }

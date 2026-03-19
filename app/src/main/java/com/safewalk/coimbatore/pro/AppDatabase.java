@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-@Database(entities = {Junction.class}, version = 2, exportSchema = false)
+@Database(entities = {Junction.class}, version = 4, exportSchema = false)
 public abstract class AppDatabase extends RoomDatabase {
     public abstract JunctionDao junctionDao();
 
@@ -29,13 +29,14 @@ public abstract class AppDatabase extends RoomDatabase {
                                 @Override
                                 public void onCreate(@NonNull SupportSQLiteDatabase db) {
                                     super.onCreate(db);
-                                    databaseWriteExecutor.execute(() -> {
-                                        JunctionDao dao = getDatabase(context).junctionDao();
-                                        List<Junction> junctions = JsonUtils.loadJunctionsFromAsset(context, "junctions.json");
-                                        for (Junction junction : junctions) {
-                                            dao.insert(junction);
-                                        }
-                                    });
+                                    populateInitialData(context);
+                                }
+
+                                @Override
+                                public void onOpen(@NonNull SupportSQLiteDatabase db) {
+                                    super.onOpen(db);
+                                    // Also check on every open in case onCreate failed or data was lost
+                                    populateInitialData(context);
                                 }
                             })
                             .build();
@@ -43,5 +44,17 @@ public abstract class AppDatabase extends RoomDatabase {
             }
         }
         return INSTANCE;
+    }
+
+    private static void populateInitialData(Context context) {
+        databaseWriteExecutor.execute(() -> {
+            JunctionDao dao = getDatabase(context).junctionDao();
+            if (dao.getCount() == 0) {
+                List<Junction> junctions = JsonUtils.loadJunctionsFromAsset(context, "junctions.json");
+                for (Junction junction : junctions) {
+                    dao.insert(junction);
+                }
+            }
+        });
     }
 }
